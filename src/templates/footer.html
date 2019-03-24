@@ -1,0 +1,70 @@
+
+{% url 'home' as home_url %}
+{% load staticfiles %}
+
+<footer class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<a href="{{ home_url }}" id="footer_logo">
+					<img class="footer-logo-image" src="{% static 'images/board.png' %}" alt="Nine Studio" style="height: 257px; width: 300px;"/>
+				</a>
+				<div class="footer-social">
+					<a data-toggle="tooltip" data-placement="top" title="" data-original-title="Facebook" href="https://www.facebook.com/rohan.wahile04"><i class="fab fa-facebook-f"></i></a>
+					<a data-toggle="tooltip" data-placement="top" title="" data-original-title="Twitter" href="#"><i class="fab fa-twitter"></i></a>
+					<a data-toggle="tooltip" data-placement="top" title="" data-original-title="Youtube" href="https://www.youtube.com/channel/UCunSO__u8GuXAWau9eljKYA"><i class="fab fa-youtube"></i></a>
+					<a data-toggle="tooltip" data-placement="top" title="" data-original-title="Instagram" href="#"><i class="fab fa-instagram"></i></a>
+				</div>
+			</div>
+			<div class="col-md-2">
+				<div class="widget">
+					<h3 class="widget-title">Our Services</h3>
+					<ul>
+						<li><a href="#">Equipment Hire</a></li>
+						<li><a href="#">Filmming Services</a></li>
+						
+						<li><a href="#">Flexibe Office Space</a></li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="col-md-6">
+				<div class="widget">
+					<h3 class="widget-title">Conect With Us</h3>
+					<div class="textwidget">
+						<p>Shop no.19 First floor Harmony complex 
+							Besides Golden Bavarchi Hotel,Ravet Pimpari Chinchwad 411011</p>
+							
+							<p>Email: <a href="mailto:rohanwahile@icloud.com">rohanwahile@icloud.com</a></p>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+<div class="copyright">
+	<div class="container">
+		<div class="row">
+			<div class="copyright-container">
+				<div class="col-md-6 p-0">
+					<div class="copyright-left">
+						Copyright © 2018 <a href="#">WahileProductions</a> - All Rights Reserved.
+					</div>
+				</div>
+				<div class="col-md-6 p-0">
+					<div class="copyright-right">
+						<ul>
+							<li><a href="#">Privacy Policy</a></li>
+							<li><a href="#">Term And Conditions</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+<div class="md-overlay"></div><!-- the overlay element -->
+<a class="backtotop" id="backtotop"><i class="ion-android-arrow-up"></i></a>
